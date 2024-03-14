@@ -47,7 +47,7 @@ const AllJobs = () => {
   
   return (
     <AllJobsContext.Provider value={{ data, searchValues }}>
-      <h1>test render aut back up</h1>
+      <h1><b>render</b></h1>
       <SearchContainer />
       <JobsContainer />
     </AllJobsContext.Provider>
