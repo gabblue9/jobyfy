@@ -47,7 +47,6 @@ const AllJobs = () => {
   
   return (
     <AllJobsContext.Provider value={{ data, searchValues }}>
-      <h1><b>render to test</b></h1>
       <SearchContainer />
       <JobsContainer />
     </AllJobsContext.Provider>
@@ -57,4 +56,3 @@ const AllJobs = () => {
 export const useAllJobsContext = () => useContext(AllJobsContext);
 
 export default AllJobs;
-//jlkjljkjl
